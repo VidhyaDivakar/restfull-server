@@ -8,7 +8,7 @@ const {
   getMovieDetails,
 } = require("../controllers/movieController");
 
-// Routes
+// Two Routes
 router.get("/search", searchMovies);
 
 router.get("/movies/:id", getMovieDetails);
